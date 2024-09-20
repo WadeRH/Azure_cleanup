@@ -1,3 +1,5 @@
+
+
 # Ensure the Az module is installed and connect to Azure
 if (-not (Get-Module -ListAvailable -Name Az)) {
     Install-Module -Name Az -Force -AllowClobber
